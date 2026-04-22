@@ -1,6 +1,6 @@
 {% set name = "harmonica" %}
 {% set version = "0.7.0" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -30,7 +30,7 @@ requirements:
     - xarray >=2022.03
     - numba >=0.53
     - verde >=1.8.1
-    - xrft >=1.0.2
+    - xrft >=1.0
     - choclo >=0.1
 
 test:
